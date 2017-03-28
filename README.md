@@ -64,7 +64,7 @@ orq('track', 'apply-start', 'a#apply-now');
 </script>
 ```
 
-# Difficulty with thank you for applying pages
+# Thank you for applying pages
 If you don't have access to your thank you for applying page, there are 2 options:
 1. OnRecruit will send you a `<img>` so that you can place a trackingpixel. This one can also be placed inside e-mail for example
 2. You can attach the `orq('track', 'conversion');` code to an apply button via the above snippet.
