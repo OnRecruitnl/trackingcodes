@@ -44,9 +44,13 @@ The way you can manually implement this is as follows:
 <a id="apply-btn" class="apply-now">Apply now!</a>
 
 <script type="text/javascript">
-// It is important however that the snippet above with the init line is present just before the closing </head> tag in the HTML.
+// It is important however that the snippet above with the init line is present just 
+// before the closing </head> tag in the HTML.
+//
 // Add Pixel apply start event to click on apply button
-// After 'track' and 'apply-start', the element can be given as 3rd argument and as 4th argument you can specify which text it should contain.
+//
+// After 'track' and 'apply-start', the element can be given as 3rd argument and as 4th argument 
+// you can specify which text it should contain.
 orq('track', 'apply-start', 'a', 'Apply now');
 
 // An other way of attaching to this is by making use of the javascript query selector:
