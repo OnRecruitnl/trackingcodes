@@ -49,7 +49,7 @@ The way you can manually implement this is as follows:
 //
 // Add Pixel apply start event to click on apply button
 //
-// After 'track' and 'apply-start', the element can be given as 3rd argument and as 4th argument 
+// After 'track' and 'apply-start', the element can be given as 3rd argument. As 4th argument 
 // you can specify which text it should contain.
 orq('track', 'apply-start', 'a', 'Apply now');
 
@@ -70,4 +70,4 @@ If you don't have access to your thank you for applying page, there are 2 option
 2. You can attach the `orq('track', 'conversion');` code to an apply button via the above snippet.
 
 # Questions?
-If you have any further questions feel free to contact your OnRecruit accountmanager!
+If you have any questions feel free to contact your OnRecruit accountmanager!
