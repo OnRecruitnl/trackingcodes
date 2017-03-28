@@ -1,4 +1,4 @@
-# OnRecruit Website Trackingcodes
+# OnRecruit Trackingcodes
 
 Track your website visitors and measure the performance of your jobs.
 
