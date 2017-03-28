@@ -44,7 +44,7 @@ The way you can manually implement this is as follows:
 <a id="apply-btn" class="apply-now">Apply now!</a>
 
 <script type="text/javascript">
-// It is important however that the snippet above with the init line is present just 
+// It is important however that the snippet above is present just 
 // before the closing </head> tag in the HTML.
 //
 // Add Pixel apply start event to click on apply button
