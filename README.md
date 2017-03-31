@@ -53,7 +53,7 @@ The way you can manually implement this is as follows:
 // you can specify which text it should contain.
 orq('track', 'apply-start', 'a', 'Apply now');
 
-// An other way of attaching to this is by making use of the javascript query selector:
+// An other way of attaching to this button is by making use of the javascript query selector:
 orq('track', 'apply-start', 'a[id="apply-btn"]');
 // or
 orq('track', 'apply-start', 'a.apply-btn');
