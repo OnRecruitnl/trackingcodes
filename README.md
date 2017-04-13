@@ -1,6 +1,6 @@
 # OnRecruit Trackingcodes
 
-Track your website visitors and measure the performance of your jobs.
+Track all the events and pages visisted of your candidates and correlate them to each job, channel and candidate.
 
 ## Usage
 Track actions like pageveiws, jobviews, apply starts, conversions and so on. These actions actions can be used by OnRecruit to give hiring funnel insights, candidate journeys, retarget candidates, find new candidates, track conversions and attribute the channels leading up to a conversions.
@@ -47,7 +47,7 @@ The way you can manually implement this is as follows:
 // It is important however that the snippet above is present just 
 // before the closing </head> tag in the HTML.
 //
-// Add Pixel apply start event to click on apply button
+// Add 'apply-start' event to click on apply button
 //
 // After 'track' and 'apply-start', the element can be given as 3rd argument. As 4th argument 
 // you can specify which text it should contain.
