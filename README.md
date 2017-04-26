@@ -56,11 +56,11 @@ orq('track', 'apply-start', 'a', 'Apply now');
 // An other way of attaching to this button is by making use of the javascript query selector:
 orq('track', 'apply-start', 'a[id="apply-btn"]');
 // or
-orq('track', 'apply-start', 'a.apply-btn');
+orq('track', 'apply-start', 'a#apply-btn');
 // or
 orq('track', 'apply-start', 'a[class="apply-now"]');
 // or
-orq('track', 'apply-start', 'a#apply-now');
+orq('track', 'apply-start', 'a.apply-now');
 </script>
 ```
 
