@@ -31,7 +31,7 @@ OnRecruit will supply you with the correct `<ONRECRUIT_ID>` and `<CUSTOMER_NAME>
 |-----|-------|-----------|
 |Job view|`orq('track','jobview');`|This code needs to be placed on the job detail page and tracks a job view.|
 |Page view|`orq('track', 'pageview');`|This code needs to be placed on other pages than job detail pages and tracks a page view.|
-|Conversion|`orq('track', 'conversion');`|This code needs to be placed on the thank you for applyin page.|
+|Conversion|`orq('track', 'conversion');`|This code needs to be placed on the thank you for applying page.|
 |Apply start|`orq('track', 'apply-start');`|This code tracks an apply start and could be attached to an apply button. Below we'll cover how to do this.|
 |Custom event|`orq('track', '<custom_event>');`|A `<custom event>` can be registered via your OnRecruit accountmanager so that you can track other events. Your accountmanager will tell what should come in the place of `<custom_event>`.
 
