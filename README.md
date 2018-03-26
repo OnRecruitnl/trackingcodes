@@ -69,5 +69,21 @@ If you don't have access to your thank you for applying page, there are 2 option
 1. OnRecruit will send you a `<img>`-snippet so that you can place the trackingpixel. Some ATS-es only accept trackingpixels instead of javascript codes.
 2. You can attach the `orq('track', 'conversion');` code to an apply button via the above snippet.
 
+# Banner trackigncodes
+```html
+<!-- OnRecruit Tracking Code -->
+<script>
+function impression(e,r){var o=location.href,n=document.referrer,t=("https:"==o.protocol?
+"https://":"http://")+"tracker.onrecruit.net/api/v1/"+"log-impression/?customer_id="+e;
+t+="&partner_id=28&campaign_id="+r+"&location=",t+=encodeURIComponent(o)+"&referer=",
+t+=encodeURIComponent(n),(new Image).src=t}
+
+impression(CUSTOMER_ID, CAMPAIGN_ID);
+
+</script>
+<!-- End OnRecruit Tracking Code -->
+
+```
+
 # Questions?
 If you have any questions feel free to contact your OnRecruit accountmanager!
