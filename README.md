@@ -86,4 +86,4 @@ impression(CUSTOMER_ID, CAMPAIGN_ID);
 ```
 
 # Questions?
-If you have any questions feel free to contact your OnRecruit accountmanager!
+If you have any questions feel free to contact your OnRecruit Customer Success Manager!
