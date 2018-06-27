@@ -11,18 +11,30 @@ The trackingcode comes with standard events that you scan use on your website. N
 
 Below you can find the the snippet which you have to add before the ending *</head>* tag in the page's HTML:
 ```html
-<!-- OnRecruit Tracking Code -->
+<!-- OnRecruit Analytics Code -->
 <script>
 !function(o,r,e,v,n,t,s){if(o.orq)return;n=o.orq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!o._orq)o._orq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=r.createElement(e);t.async=!0;
+n.push=n;n.loaded=!0;n.version='3.0';n.queue=[];t=r.createElement(e);t.async=!0;
 t.src=v;s=r.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','//tracker.onrecruit.net/static/scripts/v2/track.js');
+document,'script','//analytics.onrecruit.net/static/scripts/v3/analytics.js');
 
 orq('init', '<ONRECRUIT_ID>', '<CUSTOMER_NAME>');
 orq('track', 'jobview');
 </script>
-<!-- End OnRecruit Tracking Code -->
+<!-- End OnRecruit Analytics Code -->
+```
+
+```html
+<!-- OnRecruit Adform Code -->
+<script>
+!function(o,r,e,v,n,t,s){if(o.orqDMP)return;n=o.orqDMP=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!o._orqDMP)o._orqDMP=n;
+n.push=n;n.loaded=!0;n.version='3.0';n.queue=[];t=r.createElement(e);t.async=!0;
+t.src=v;s=r.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//analytics.onrecruit.net/static/scripts/v3/adform.js');
+</script>
+<!-- End OnRecruit Adform Code -->
 ```
 
 OnRecruit will supply you with the correct `<ONRECRUIT_ID>` and `<CUSTOMER_NAME>`. As you can see `orq('track', 'jobview');` refers to a view on the job page. Next to that other events are also possible:
