@@ -19,6 +19,9 @@ n.push=n;n.loaded=!0;n.version='3.0';n.queue=[];t=r.createElement(e);t.async=!0;
 t.src=v;s=r.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','//analytics.onrecruit.net/static/scripts/v3/analytics.js?v=' + Math.random());
 
+// in case of different subdomains
+orq('init', '<ONRECRUIT_ID>', '<CUSTOMER_NAME>', {domain: "example.com"});
+// in regular case
 orq('init', '<ONRECRUIT_ID>', '<CUSTOMER_NAME>', {domain: "example.com"});
 orq('track', 'jobview');
 </script>
