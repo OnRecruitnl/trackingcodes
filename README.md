@@ -22,7 +22,7 @@ document,'script','//analytics.onrecruit.net/static/scripts/v3/analytics.js?v=' 
 // in case of different subdomains
 orq('init', '<ONRECRUIT_ID>', '<CUSTOMER_NAME>', {domain: "example.com"});
 // in regular case
-orq('init', '<ONRECRUIT_ID>', '<CUSTOMER_NAME>', {domain: "example.com"});
+orq('init', '<ONRECRUIT_ID>', '<CUSTOMER_NAME>');
 orq('track', 'jobview');
 </script>
 <!-- End OnRecruit Analytics Code -->
