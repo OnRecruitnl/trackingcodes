@@ -28,18 +28,6 @@ orq('track', 'jobview');
 <!-- End OnRecruit Analytics Code -->
 ```
 
-```html
-<!-- OnRecruit Adform Code -->
-<script>
-!function(o,r,e,v,n,t,s){if(o.orqDMP)return;n=o.orqDMP=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!o._orqDMP)o._orqDMP=n;
-n.push=n;n.loaded=!0;n.version='3.0';n.queue=[];t=r.createElement(e);t.async=!0;
-t.src=v;s=r.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','//analytics.onrecruit.net/static/scripts/v3/adform.js?v=' + Math.random());
-</script>
-<!-- End OnRecruit Adform Code -->
-```
-
 OnRecruit will supply you with the correct `<ONRECRUIT_ID>` and `<CUSTOMER_NAME>`. As you can see `orq('track', 'jobview');` refers to a view on the job page. Next to that other events are also possible:
 
 |Event|Command|Explanation|
@@ -84,21 +72,6 @@ If you don't have access to your thank you for applying page, there are 2 option
 1. OnRecruit will send you a `<img>`-snippet so that you can place the trackingpixel. Some ATS-es only accept trackingpixels instead of javascript codes.
 2. You can attach the `orq('track', 'conversion');` code to an apply button via the above snippet.
 
-# Banner trackigncodes
-```html
-<!-- OnRecruit Tracking Code -->
-<script>
-function impression(o,r){var q=location.href,n=document.referrer,t=("https:"==location.protocol?
-"https://":"http://")+"tracker.onrecruit.net/api/v1/"+"log-impression/?customer_id="+o;
-t+="&partner_id=28&campaign_id="+r+"&location=",t+=encodeURIComponent(q)+"&referer=",
-t+=encodeURIComponent(n),(new Image).src=t}
-
-impression(CUSTOMER_ID, CAMPAIGN_ID);
-
-</script>
-<!-- End OnRecruit Tracking Code -->
-
-```
 
 # Questions?
 If you have any questions feel free to contact your OnRecruit Customer Success Manager!
